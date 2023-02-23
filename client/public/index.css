@@ -1,0 +1,6 @@
+.background-image{
+    background-image: url('./soccer.image.jpg');
+width: 200px;
+height: 200px;
+background-size:contain ;
+}
