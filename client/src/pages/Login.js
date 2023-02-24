@@ -6,7 +6,7 @@ import axios from "axios";
 
 const Login = () => {
     const navigate = useNavigate();
-    //form handler
+    //form handler, collect, validate ad submit user input
     const onfinishHandler = async (values) => {
       try {
         const res = await axios.post("/api/v1/users/login", values);
@@ -42,4 +42,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
